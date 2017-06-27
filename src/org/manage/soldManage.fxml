@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.control.SoldManageControl">
+   <children>
+      <Pane layoutX="1.0" layoutY="-2.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="56.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" text="销售记录"
+                    onAction="#openSoldNote"/>
+            <Button layoutX="242.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" text="订单"
+                    onAction="#openOrderDetail"/>
+            <Button layoutX="447.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" text="付款方式"
+                    onAction="#openPaymentMethod"/>
+            <Button layoutX="56.0" layoutY="234.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" text="银行"
+                    onAction="#openBank"/>
+            <Button layoutX="242.0" layoutY="234.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" text="售后记录"
+                    onAction="#openAfterSaleRecord"/>
+            <Label layoutX="99.0" layoutY="34.0" prefHeight="71.0" prefWidth="403.0" text="      销售管理" />
+         </children>
+      </Pane>
+   </children>
+    <stylesheets>
+        <URL value="@soldManage.css" />
+    </stylesheets>
+</AnchorPane>

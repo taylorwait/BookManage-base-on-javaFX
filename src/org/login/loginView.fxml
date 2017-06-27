@@ -1,0 +1,42 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+
+<GridPane fx:controller="org.control.LoginControl"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+          styleClass="root">
+    <padding><Insets top="25" right="25" bottom="10" left="25" /></padding>
+
+    <Text id="welcome-text" text="图书销售管理系统"
+          GridPane.columnIndex="0" GridPane.rowIndex="0"
+          GridPane.columnSpan="2"/>
+
+    <Label text="用户名:"
+           GridPane.columnIndex="0" GridPane.rowIndex="1" />
+
+    <TextField fx:id="usernameField"
+            GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="密码:"
+           GridPane.columnIndex="0" GridPane.rowIndex="2" />
+
+    <PasswordField fx:id="passwordField"
+                   GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+    <HBox spacing="10" alignment="bottom_right"
+          GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button text="登录"
+                onAction="#handleSubmitButtonAction" />
+    </HBox>
+
+    <Text fx:id="actiontarget"
+          GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+
+    <stylesheets>
+        <URL value="@Login.css" />
+    </stylesheets>
+
+</GridPane>

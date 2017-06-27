@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import java.net.URL?>
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.control.PurchaseRecordControl">
+    <padding><Insets bottom="10.0" left="10.0" right="10.0" top="10.0" /></padding>
+    <Label fx:id="clable" style="-fx-font: NORMAL 20 Tahoma;" text="进货记录表" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <columns>
+            <TableColumn fx:id="Purchasecode" prefWidth="130.0" text="进货编号" />
+            <TableColumn fx:id="Bcode" prefWidth="84.0" text="图书ISBN编码" />
+            <TableColumn fx:id="Pamount" prefWidth="100.0" text="进货数量" />
+            <TableColumn fx:id="PTprice" prefWidth="100.0" text="进货总价" />
+            <TableColumn fx:id="Pdate" prefWidth="130.0" text="进货日期" />
+            <TableColumn fx:id="Ecode" prefWidth="80.0" text="员工编号" />
+            <TableColumn fx:id="SupplierCode" prefWidth="80.0" text="供应商编号" />
+        </columns>
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+            </FXCollections>
+        </items>
+        <sortOrder>
+
+        </sortOrder>
+    </TableView>
+    <HBox alignment="BOTTOM_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <TextField fx:id="Purchasecode_add" alignment="BOTTOM_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefWidth="90.0" promptText="进货编号" />
+        <TextField fx:id="Bcode_add" prefWidth="90.0" promptText="图书ISBN编码" />
+        <TextField fx:id="Pamount_add" prefWidth="90.0" promptText="进货数量" />
+        <TextField fx:id="PTprice_add" prefWidth="90.0" promptText="进货总价" />
+        <TextField fx:id="Pdate_add" prefWidth="90.0" promptText="进货日期" />
+        <TextField fx:id="Ecode_add" prefWidth="90.0" promptText="员工编号" />
+        <TextField fx:id="SupplierCode_add" prefWidth="90.0" promptText="供应商编号" />
+        <Button onAction="#add" text="添加" />
+    </HBox>
+
+    <HBox alignment="BOTTOM_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+        <TextField fx:id="Purchasecode_update" alignment="BOTTOM_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefWidth="90.0" promptText="进货编号" />
+        <TextField fx:id="Bcode_update" prefWidth="90.0" promptText="图书ISBN编码" />
+        <TextField fx:id="Pamount_update" prefWidth="90.0" promptText="进货数量" />
+        <TextField fx:id="PTprice_update" prefWidth="90.0" promptText="进货总价" />
+        <TextField fx:id="Pdate_update" prefWidth="90.0" promptText="进货日期" />
+        <TextField fx:id="Ecode_update" prefWidth="90.0" promptText="员工编号" />
+        <TextField fx:id="SupplierCode_update" prefWidth="90.0" promptText="供应商编号" />
+        <Button onAction="#update" text="更改" />
+    </HBox>
+
+    <HBox alignment="BOTTOM_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+        <TextField fx:id="Purchasecode_select" alignment="BOTTOM_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefWidth="90.0" promptText="进货编号" />
+        <TextField fx:id="Bcode_select" prefWidth="78.0" promptText="图书ISBN编码" />
+        <TextField fx:id="Pamount_select" prefWidth="78.0" promptText="进货数量" />
+        <TextField fx:id="PTprice_select" prefWidth="78.0" promptText="进货总价" />
+        <TextField fx:id="Pdate_select" prefWidth="78.0" promptText="进货日期" />
+        <TextField fx:id="Ecode_select" prefWidth="78.0" promptText="员工编号" />
+        <TextField fx:id="SupplierCode_select" prefWidth="90.0" promptText="供应商编号" />
+        <Button onAction="#select" text="查询" />
+        <Button onAction="#back" text="原表" />
+
+    </HBox>
+
+    <HBox alignment="BOTTOM_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="5">
+        <children>
+            <Label text="进货编号" />
+            <TextField fx:id="Purchasecode_remove" />
+            <Button mnemonicParsing="false" onAction="#remove" text="删除" />
+
+        </children></HBox>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <stylesheets>
+        <URL value="@purchaseRecordView.css" />
+    </stylesheets>
+</GridPane>

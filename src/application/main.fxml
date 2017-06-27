@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+    <children>
+        <TableView fx:id="table" prefHeight="400.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="34.0" text="id " />
+                <TableColumn fx:id="url" prefWidth="186.0" text="url" />
+                <TableColumn fx:id="code" minWidth="0.0" prefWidth="55.0" text="code" />
+                <TableColumn fx:id="server" prefWidth="108.0" text="server" />
+                <TableColumn fx:id="title" prefWidth="216.0" text="title" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>

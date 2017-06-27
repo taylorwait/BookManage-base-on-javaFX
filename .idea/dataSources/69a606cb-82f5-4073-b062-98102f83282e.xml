@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SQL Server (Microsoft) - bookstore@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="2.6">
+    <database id="1" name="bookstore">
+      <object-id>6</object-id>
+      <visible>1</visible>
+    </database>
+    <database id="2" name="master">
+      <object-id>1</object-id>
+    </database>
+    <database id="3" name="tempdb">
+      <object-id>2</object-id>
+    </database>
+    <database id="4" name="model">
+      <object-id>3</object-id>
+    </database>
+    <database id="5" name="msdb">
+      <object-id>4</object-id>
+    </database>
+    <database id="6" name="test">
+      <object-id>5</object-id>
+    </database>
+    <database id="7" name="just_test">
+      <object-id>7</object-id>
+    </database>
+    <database id="8" name="test1">
+      <object-id>9</object-id>
+    </database>
+    <schema id="9" parent="1" name="dbo">
+      <object-id>1</object-id>
+      <visible>1</visible>
+      <introspection-timestamp>2017-05-13.14:42:46.647</introspection-timestamp>
+    </schema>
+    <schema id="10" parent="1" name="guest">
+      <object-id>2</object-id>
+    </schema>
+    <schema id="11" parent="1" name="INFORMATION_SCHEMA">
+      <object-id>3</object-id>
+    </schema>
+    <schema id="12" parent="1" name="sys">
+      <object-id>4</object-id>
+    </schema>
+    <schema id="13" parent="1" name="db_owner">
+      <object-id>16384</object-id>
+    </schema>
+    <schema id="14" parent="1" name="db_accessadmin">
+      <object-id>16385</object-id>
+    </schema>
+    <schema id="15" parent="1" name="db_securityadmin">
+      <object-id>16386</object-id>
+    </schema>
+    <schema id="16" parent="1" name="db_ddladmin">
+      <object-id>16387</object-id>
+    </schema>
+    <schema id="17" parent="1" name="db_backupoperator">
+      <object-id>16389</object-id>
+    </schema>
+    <schema id="18" parent="1" name="db_datareader">
+      <object-id>16390</object-id>
+    </schema>
+    <schema id="19" parent="1" name="db_datawriter">
+      <object-id>16391</object-id>
+    </schema>
+    <schema id="20" parent="1" name="db_denydatareader">
+      <object-id>16392</object-id>
+    </schema>
+    <schema id="21" parent="1" name="db_denydatawriter">
+      <object-id>16393</object-id>
+    </schema>
+    <table id="22" parent="9" name="aftersalerecord">
+      <object-id>277576027</object-id>
+      <created-timestamp>2017-05-03.11:47:14.937</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.180</modified-timestamp>
+    </table>
+    <table id="23" parent="9" name="bank">
+      <object-id>309576141</object-id>
+      <created-timestamp>2017-05-03.11:47:14.970</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.180</modified-timestamp>
+    </table>
+    <table id="24" parent="9" name="book">
+      <object-id>341576255</object-id>
+      <created-timestamp>2017-05-03.11:47:14.977</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.200</modified-timestamp>
+    </table>
+    <table id="25" parent="9" name="customer">
+      <object-id>357576312</object-id>
+      <created-timestamp>2017-05-03.11:47:14.987</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.200</modified-timestamp>
+    </table>
+    <table id="26" parent="9" name="employee">
+      <object-id>389576426</object-id>
+      <created-timestamp>2017-05-03.11:47:15</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.203</modified-timestamp>
+    </table>
+    <table id="27" parent="9" name="Login">
+      <object-id>421576540</object-id>
+      <created-timestamp>2017-05-03.11:47:15.017</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.017</modified-timestamp>
+    </table>
+    <table id="28" parent="9" name="orderdetail">
+      <object-id>453576654</object-id>
+      <created-timestamp>2017-05-03.11:47:15.023</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.210</modified-timestamp>
+    </table>
+    <table id="29" parent="9" name="paymentmethod">
+      <object-id>485576768</object-id>
+      <created-timestamp>2017-05-03.11:47:15.030</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.203</modified-timestamp>
+    </table>
+    <table id="30" parent="9" name="promotiondetail">
+      <object-id>517576882</object-id>
+      <created-timestamp>2017-05-03.11:47:15.043</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.210</modified-timestamp>
+    </table>
+    <table id="31" parent="9" name="purchaserecord">
+      <object-id>549576996</object-id>
+      <created-timestamp>2017-05-03.11:47:15.050</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.223</modified-timestamp>
+    </table>
+    <table id="32" parent="9" name="returnrecord">
+      <object-id>581577110</object-id>
+      <created-timestamp>2017-05-03.11:47:15.060</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.230</modified-timestamp>
+    </table>
+    <table id="33" parent="9" name="soldnote">
+      <object-id>613577224</object-id>
+      <created-timestamp>2017-05-03.11:47:15.070</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.237</modified-timestamp>
+    </table>
+    <table id="34" parent="9" name="store">
+      <object-id>645577338</object-id>
+      <created-timestamp>2017-05-03.11:47:15.077</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.233</modified-timestamp>
+    </table>
+    <table id="35" parent="9" name="supplier">
+      <object-id>677577452</object-id>
+      <created-timestamp>2017-05-03.11:47:15.083</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.233</modified-timestamp>
+    </table>
+    <table id="36" parent="9" name="vip">
+      <object-id>709577566</object-id>
+      <created-timestamp>2017-05-03.11:47:15.090</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.233</modified-timestamp>
+    </table>
+    <view id="37" parent="9" name="aftersalerecord_view">
+      <object-id>741577680</object-id>
+      <created-timestamp>2017-05-03.11:47:15.097</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.097</modified-timestamp>
+    </view>
+    <view id="38" parent="9" name="customer_is_vip">
+      <object-id>757577737</object-id>
+      <created-timestamp>2017-05-03.11:47:15.100</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.100</modified-timestamp>
+    </view>
+    <view id="39" parent="9" name="customer_not_vip">
+      <object-id>773577794</object-id>
+      <created-timestamp>2017-05-03.11:47:15.100</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.100</modified-timestamp>
+    </view>
+    <view id="40" parent="9" name="order_view">
+      <object-id>789577851</object-id>
+      <created-timestamp>2017-05-03.11:47:15.100</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.100</modified-timestamp>
+    </view>
+    <view id="41" parent="9" name="total_count">
+      <object-id>805577908</object-id>
+      <created-timestamp>2017-05-03.11:47:15.103</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.103</modified-timestamp>
+    </view>
+    <routine id="42" parent="9" name="promotion_isCoexist">
+      <object-id>245575913</object-id>
+      <created-timestamp>2017-05-03.11:47:14.900</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:14.900</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <routine id="43" parent="9" name="Promotion_notCoexist">
+      <object-id>261575970</object-id>
+      <created-timestamp>2017-05-03.11:47:14.930</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:14.930</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <type>PROC</type>
+    </routine>
+    <column id="44" parent="22" name="AfterSaleRecord">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="45" parent="22" name="Ccode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="46" parent="22" name="AfterSaleReason">
+      <data-type>nvarchar(max)|0</data-type>
+    </column>
+    <column id="47" parent="22" name="AfterSaleDeal">
+      <data-type>nvarchar(max)|0</data-type>
+    </column>
+    <column id="48" parent="22" name="AfterSaleDate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="49" parent="22" name="Ecode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="50" parent="22" name="PK_aftersalerecord_AfterSaleRecord">
+      <columns>AfterSaleRecord</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="51" parent="22" name="Ccode">
+      <columns>Ccode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <index id="52" parent="22" name="Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <position>3</position>
+    </index>
+    <key id="53" parent="22" name="PK_aftersalerecord_AfterSaleRecord">
+      <object-id>293576084</object-id>
+      <created-timestamp>2017-05-03.11:47:14.960</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:14.960</modified-timestamp>
+      <columns>AfterSaleRecord</columns>
+      <underlying-index>PK_aftersalerecord_AfterSaleRecord</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="54" parent="23" name="BankCode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="55" parent="23" name="BankName">
+      <data-type>nchar(50)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="56" parent="23" name="PK_bank_BankCode">
+      <columns>BankCode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="57" parent="23" name="PK_bank_BankCode">
+      <object-id>325576198</object-id>
+      <created-timestamp>2017-05-03.11:47:14.970</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:14.970</modified-timestamp>
+      <columns>BankCode</columns>
+      <underlying-index>PK_bank_BankCode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="58" parent="24" name="Bcode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="59" parent="24" name="Bname">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="60" parent="24" name="Author">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="61" parent="24" name="Introduction">
+      <data-type>nvarchar(max)|0</data-type>
+    </column>
+    <column id="62" parent="24" name="Stock">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="63" parent="24" name="Shelf">
+      <data-type>bit|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="64" parent="24" name="Pnumber">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="65" parent="24" name="Sprice">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="66" parent="24" name="Storenumber">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="67" parent="24" name="Book_clustered">
+      <columns>Bcode</columns>
+      <desc-columns></desc-columns>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <column id="68" parent="25" name="Ccode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="69" parent="25" name="Cname">
+      <data-type>nvarchar(255)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="70" parent="25" name="Ctel">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="71" parent="25" name="Csex">
+      <data-type>bit|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="72" parent="25" name="Caddress">
+      <data-type>nchar(100)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="73" parent="25" name="isvip">
+      <data-type>bit|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="74" parent="25" name="PK_customer_Ccode">
+      <columns>Ccode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="75" parent="25" name="customer_unclustered">
+      <columns>Ccode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <key id="76" parent="25" name="PK_customer_Ccode">
+      <object-id>373576369</object-id>
+      <created-timestamp>2017-05-03.11:47:14.990</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:14.990</modified-timestamp>
+      <columns>Ccode</columns>
+      <underlying-index>PK_customer_Ccode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="77" parent="26" name="Ecode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="78" parent="26" name="Ename">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="79" parent="26" name="Etel">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="80" parent="26" name="Esex">
+      <data-type>bit|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="81" parent="26" name="Eaddress">
+      <data-type>nchar(100)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="82" parent="26" name="Eduty">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="83" parent="26" name="PK_employee_Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="84" parent="26" name="PK_employee_Ecode">
+      <object-id>405576483</object-id>
+      <created-timestamp>2017-05-03.11:47:15</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15</modified-timestamp>
+      <columns>Ecode</columns>
+      <underlying-index>PK_employee_Ecode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="85" parent="27" name="Ecode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="86" parent="27" name="Pword">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <index id="87" parent="27" name="PK__Login__E465AB1AEDBBC60C">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="88" parent="27" name="PK__Login__E465AB1AEDBBC60C">
+      <object-id>437576597</object-id>
+      <created-timestamp>2017-05-03.11:47:15.017</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.017</modified-timestamp>
+      <columns>Ecode</columns>
+      <underlying-index>PK__Login__E465AB1AEDBBC60C</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="89" parent="28" name="Ocode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="90" parent="28" name="Odate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="91" parent="28" name="BankCode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="92" parent="28" name="Tpayment">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="93" parent="28" name="ExpriyDate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="94" parent="28" name="PmethodCode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="95" parent="28" name="PK_order_Ocode">
+      <columns>Ocode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="96" parent="28" name="BankCode">
+      <columns>BankCode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <index id="97" parent="28" name="PmethodCode">
+      <columns>PmethodCode</columns>
+      <desc-columns></desc-columns>
+      <position>3</position>
+    </index>
+    <key id="98" parent="28" name="PK_order_Ocode">
+      <object-id>469576711</object-id>
+      <created-timestamp>2017-05-03.11:47:15.023</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.023</modified-timestamp>
+      <columns>Ocode</columns>
+      <underlying-index>PK_order_Ocode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="99" parent="29" name="PmethodCode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="100" parent="29" name="PmethodName">
+      <data-type>nchar(50)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="101" parent="29" name="BankCode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="102" parent="29" name="PK_paymentmethod_PmethodCode">
+      <columns>PmethodCode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="103" parent="29" name="BankCode">
+      <columns>BankCode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <key id="104" parent="29" name="PK_paymentmethod_PmethodCode">
+      <object-id>501576825</object-id>
+      <created-timestamp>2017-05-03.11:47:15.030</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.030</modified-timestamp>
+      <columns>PmethodCode</columns>
+      <underlying-index>PK_paymentmethod_PmethodCode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="105" parent="30" name="PromotionCode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="106" parent="30" name="Bcode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="107" parent="30" name="Pdate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="108" parent="30" name="Ptype">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="109" parent="30" name="isCoexist">
+      <data-type>bit|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="110" parent="30" name="PK_promotiondetail_PromotionCode">
+      <columns>PromotionCode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="111" parent="30" name="Bcode">
+      <columns>Bcode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <key id="112" parent="30" name="PK_promotiondetail_PromotionCode">
+      <object-id>533576939</object-id>
+      <created-timestamp>2017-05-03.11:47:15.043</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.043</modified-timestamp>
+      <columns>PromotionCode</columns>
+      <underlying-index>PK_promotiondetail_PromotionCode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="113" parent="31" name="Purchasecode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="114" parent="31" name="Bcode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="115" parent="31" name="Pamount">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="116" parent="31" name="PTprice">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="117" parent="31" name="Pdate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="118" parent="31" name="Ecode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="119" parent="31" name="SupplierCode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="120" parent="31" name="PK_purchaserecord">
+      <columns>Purchasecode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="121" parent="31" name="Bcode">
+      <columns>Bcode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <index id="122" parent="31" name="Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <position>3</position>
+    </index>
+    <index id="123" parent="31" name="SupplierCode">
+      <columns>SupplierCode</columns>
+      <desc-columns></desc-columns>
+      <position>4</position>
+    </index>
+    <key id="124" parent="31" name="PK_purchaserecord">
+      <object-id>565577053</object-id>
+      <created-timestamp>2017-05-03.11:47:15.050</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.050</modified-timestamp>
+      <columns>Purchasecode</columns>
+      <underlying-index>PK_purchaserecord</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="125" parent="32" name="Rcode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="126" parent="32" name="Bcode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="127" parent="32" name="Ramount">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="128" parent="32" name="RTprice">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="129" parent="32" name="Pdate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="130" parent="32" name="Ecode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="131" parent="32" name="SupplierCode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="132" parent="32" name="Rtype">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="133" parent="32" name="PK_returnrecord_Rcode">
+      <columns>Rcode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="134" parent="32" name="Bcode">
+      <columns>Bcode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <index id="135" parent="32" name="Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <position>3</position>
+    </index>
+    <index id="136" parent="32" name="SupplierCode">
+      <columns>SupplierCode</columns>
+      <desc-columns></desc-columns>
+      <position>4</position>
+    </index>
+    <key id="137" parent="32" name="PK_returnrecord_Rcode">
+      <object-id>597577167</object-id>
+      <created-timestamp>2017-05-03.11:47:15.060</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.060</modified-timestamp>
+      <columns>Rcode</columns>
+      <underlying-index>PK_returnrecord_Rcode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="138" parent="33" name="Soldcode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="139" parent="33" name="Bcode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="140" parent="33" name="Ccode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="141" parent="33" name="Samount">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="142" parent="33" name="Sprice">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="143" parent="33" name="STprice">
+      <data-type>float|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="144" parent="33" name="Sdate">
+      <data-type>datetime2|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="145" parent="33" name="Ecode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="146" parent="33" name="PK_soldnote_Soldcode">
+      <columns>Soldcode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="147" parent="33" name="Bcode">
+      <columns>Bcode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <index id="148" parent="33" name="Ccode">
+      <columns>Ccode</columns>
+      <desc-columns></desc-columns>
+      <position>3</position>
+    </index>
+    <index id="149" parent="33" name="Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <position>4</position>
+    </index>
+    <key id="150" parent="33" name="PK_soldnote_Soldcode">
+      <object-id>629577281</object-id>
+      <created-timestamp>2017-05-03.11:47:15.070</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.070</modified-timestamp>
+      <columns>Soldcode</columns>
+      <underlying-index>PK_soldnote_Soldcode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="151" parent="34" name="StoreCode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="152" parent="34" name="Scapacity">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="153" parent="34" name="Sremain">
+      <data-type>int|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="154" parent="34" name="Ecode">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="155" parent="34" name="Saddress">
+      <data-type>nchar(100)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="156" parent="34" name="PK_store_StoreCode">
+      <columns>StoreCode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <index id="157" parent="34" name="Ecode">
+      <columns>Ecode</columns>
+      <desc-columns></desc-columns>
+      <position>2</position>
+    </index>
+    <key id="158" parent="34" name="PK_store_StoreCode">
+      <object-id>661577395</object-id>
+      <created-timestamp>2017-05-03.11:47:15.077</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.077</modified-timestamp>
+      <columns>StoreCode</columns>
+      <underlying-index>PK_store_StoreCode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="159" parent="35" name="SupplierCode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="160" parent="35" name="Sname">
+      <data-type>nchar(50)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="161" parent="35" name="Stel">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="162" parent="35" name="Saddress">
+      <data-type>nchar(100)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="163" parent="35" name="PK_supplier_SupplierCode">
+      <columns>SupplierCode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="164" parent="35" name="PK_supplier_SupplierCode">
+      <object-id>693577509</object-id>
+      <created-timestamp>2017-05-03.11:47:15.083</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.083</modified-timestamp>
+      <columns>SupplierCode</columns>
+      <underlying-index>PK_supplier_SupplierCode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="165" parent="36" name="Ccode">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="166" parent="36" name="Clevel">
+      <data-type>nchar(20)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="167" parent="36" name="Discount">
+      <data-type>nchar(50)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <index id="168" parent="36" name="PK_vip_Ccode">
+      <columns>Ccode</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <clustering>1</clustering>
+      <position>1</position>
+    </index>
+    <key id="169" parent="36" name="PK_vip_Ccode">
+      <object-id>725577623</object-id>
+      <created-timestamp>2017-05-03.11:47:15.090</created-timestamp>
+      <modified-timestamp>2017-05-03.11:47:15.090</modified-timestamp>
+      <columns>Ccode</columns>
+      <underlying-index>PK_vip_Ccode</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="170" parent="37" name="顾客编号">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="171" parent="37" name="顾客姓名">
+      <data-type>nvarchar(255)|0</data-type>
+    </column>
+    <column id="172" parent="37" name="售后原因">
+      <data-type>nvarchar(max)|0</data-type>
+    </column>
+    <column id="173" parent="37" name="售后处理">
+      <data-type>nvarchar(max)|0</data-type>
+    </column>
+    <column id="174" parent="37" name="售后时间">
+      <data-type>datetime2|0</data-type>
+    </column>
+    <column id="175" parent="37" name="员工编号">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="176" parent="37" name="员工姓名">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="177" parent="38" name="顾客编号">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="178" parent="38" name="顾客姓名">
+      <data-type>nvarchar(255)|0</data-type>
+    </column>
+    <column id="179" parent="38" name="顾客电话">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="180" parent="38" name="顾客性别">
+      <data-type>bit|0</data-type>
+    </column>
+    <column id="181" parent="38" name="顾客地址">
+      <data-type>nchar(100)|0</data-type>
+    </column>
+    <column id="182" parent="38" name="会员等级">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="183" parent="38" name="优惠">
+      <data-type>nchar(50)|0</data-type>
+    </column>
+    <column id="184" parent="38" name="是否会员">
+      <data-type>bit|0</data-type>
+    </column>
+    <column id="185" parent="39" name="顾客编号">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="186" parent="39" name="顾客姓名">
+      <data-type>nvarchar(255)|0</data-type>
+    </column>
+    <column id="187" parent="39" name="顾客电话">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="188" parent="39" name="顾客性别">
+      <data-type>bit|0</data-type>
+    </column>
+    <column id="189" parent="39" name="顾客地址">
+      <data-type>nchar(100)|0</data-type>
+    </column>
+    <column id="190" parent="39" name="会员等级">
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="191" parent="39" name="优惠">
+      <data-type>nchar(50)|0</data-type>
+    </column>
+    <column id="192" parent="39" name="是否会员">
+      <data-type>bit|0</data-type>
+    </column>
+    <column id="193" parent="40" name="订单编号">
+      <mandatory>1</mandatory>
+      <data-type>nchar(20)|0</data-type>
+    </column>
+    <column id="194" parent="40" name="付款日期">
+      <data-type>datetime2|0</data-type>
+    </column>
+    <column id="195" parent="40" name="银行名称">
+      <data-type>nchar(50)|0</data-type>
+    </column>
+    <column id="196" parent="40" name="付款总数">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="197" parent="40" name="截止日期">
+      <data-type>datetime2|0</data-type>
+    </column>
+    <column id="198" parent="40" name="付款方式名称">
+      <data-type>nchar(50)|0</data-type>
+    </column>
+    <column id="199" parent="41" name="销售总数">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="200" parent="41" name="销售总价">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="201" parent="41" name="进货总数">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="202" parent="41" name="进货总价">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="203" parent="41" name="退货总数">
+      <data-type>int|0</data-type>
+    </column>
+    <column id="204" parent="41" name="退货总价">
+      <data-type>float|0</data-type>
+    </column>
+    <argument id="205" parent="42" name="@str">
+      <direction>OUT</direction>
+      <data-type>nchar(8)|0</data-type>
+    </argument>
+    <argument id="206" parent="43" name="@str">
+      <direction>OUT</direction>
+      <data-type>nchar(8)|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>

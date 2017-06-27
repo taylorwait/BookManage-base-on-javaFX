@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server (Microsoft) - bookstore@localhost" uuid="69a606cb-82f5-4073-b062-98102f83282e">
+      <database-info product="Microsoft SQL Server" version="11.00.2100" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-schemas>*:dbo|bookstore:*</introspection-schemas>
+      <resolve-scope>bookstore:*</resolve-scope>
+      <unqualified-resolve-schemas>bookstore:*</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>
